@@ -10,7 +10,7 @@ public class Pessoa {
     private Long id;
     private String nome;
     private Integer idade;
-    private String cpfF;
+    private String cpf;
 
     public Pessoa() {
     }

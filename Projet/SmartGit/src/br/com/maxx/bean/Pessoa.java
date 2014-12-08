@@ -10,7 +10,7 @@ public class Pessoa {
     private Long id;
     private String nome;
     private Integer idade;
-    private String cpf;
+    private String cpfF;
 
     public Pessoa() {
     }
@@ -48,11 +48,11 @@ public class Pessoa {
     }
 
     public String getCpf() {
-        return cpf;
+        return cpfF;
     }
 
     public void setCpf(String cpf) {
-        this.cpf = cpf;
+        this.cpfF = cpf;
     }
 
 }
